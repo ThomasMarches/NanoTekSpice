@@ -1,0 +1,891 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "/Users/thomasmarches/delivery/Tek2/OOP/B-OOP-400-TLS-4-1-tekspice-samuel.besseau",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2021-03-11 23:26:23",
+            "filesum": 143,
+            "codesum": 4888,
+            "commentsum": 921,
+            "blanksum": 774,
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 2,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 8,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "CMakeLists.txt"
+                },
+                {
+                    "blank": 4,
+                    "code": 21,
+                    "comment": 6,
+                    "filename": "include/4008.hpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 21,
+                    "comment": 6,
+                    "filename": "include/4069.hpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "include/AComponent.hpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "include/AndGate.hpp"
+                },
+                {
+                    "blank": 6,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "include/Circuit.hpp"
+                },
+                {
+                    "blank": 6,
+                    "code": 16,
+                    "comment": 1,
+                    "filename": "include/Clock.hpp"
+                },
+                {
+                    "blank": 6,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "include/Exceptions/AException.hpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "include/Exceptions/ComponentAlreadyExist.hpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "include/Exceptions/ComponentNotFound.hpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "include/Exceptions/EmptyCircuitException.hpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "include/Exceptions/InvalidPin.hpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "include/Exceptions/ParserException.hpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "include/Exceptions/SameType.hpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "include/Exceptions/SelfLink.hpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "include/Exceptions/UnknownValueException.hpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 17,
+                    "filename": "include/Factory.hpp"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 6,
+                    "filename": "include/FalseComponent.hpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 0,
+                    "comment": 19,
+                    "filename": "include/FlipFlop.hpp"
+                },
+                {
+                    "blank": 14,
+                    "code": 63,
+                    "comment": 15,
+                    "filename": "include/FourGates.hpp"
+                },
+                {
+                    "blank": 9,
+                    "code": 44,
+                    "comment": 6,
+                    "filename": "include/IComponent.hpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 15,
+                    "comment": 1,
+                    "filename": "include/Input.hpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 17,
+                    "comment": 6,
+                    "filename": "include/InverterGate.hpp"
+                },
+                {
+                    "blank": 23,
+                    "code": 132,
+                    "comment": 3,
+                    "filename": "include/Lexer.h"
+                },
+                {
+                    "blank": 5,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "include/NAndGate.hpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "include/NorGate.hpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "include/OrGate.hpp"
+                },
+                {
+                    "blank": 6,
+                    "code": 15,
+                    "comment": 1,
+                    "filename": "include/Output.hpp"
+                },
+                {
+                    "blank": 7,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "include/Parser.hpp"
+                },
+                {
+                    "blank": 18,
+                    "code": 40,
+                    "comment": 7,
+                    "filename": "include/ParserHelper.hpp"
+                },
+                {
+                    "blank": 6,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "include/Shell.hpp"
+                },
+                {
+                    "blank": 23,
+                    "code": 108,
+                    "comment": 8,
+                    "filename": "include/Token.h"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 6,
+                    "filename": "include/TrueComponent.hpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "include/XorGate.hpp"
+                },
+                {
+                    "blank": 2,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "main.cpp"
+                },
+                {
+                    "filename": "sample/documentation/2716_rom.pdf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "sample/documentation/4001_nor.pdf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "sample/documentation/4004_microprocessor.pdf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "sample/documentation/4008_adder.pdf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "sample/documentation/4011_nand.pdf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "sample/documentation/4013_flipflop.pdf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "sample/documentation/4017_johnson.pdf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "sample/documentation/4030_xor.pdf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 830,
+                    "comment": 596,
+                    "filename": "sample/documentation/4040_counter.pdf"
+                },
+                {
+                    "filename": "sample/documentation/4069_not.pdf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "sample/documentation/4071_or.pdf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "sample/documentation/4081_and.pdf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "sample/documentation/4094_shift.pdf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "sample/documentation/4512_selector.pdf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "sample/documentation/4514_decoder.pdf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "sample/documentation/4801_ram.pdf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 2,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "sample/nts_advanced/altered-counter.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "sample/nts_advanced/and-or-not.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "sample/nts_advanced/and.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 68,
+                    "comment": 0,
+                    "filename": "sample/nts_single/2716_rom.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "sample/nts_single/4001_nor.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 58,
+                    "comment": 0,
+                    "filename": "sample/nts_single/4008_adder.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "sample/nts_single/4011_nand.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 56,
+                    "comment": 0,
+                    "filename": "sample/nts_single/4013_flipflop.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "sample/nts_single/4017_johnson.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "sample/nts_single/4030_xor.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "sample/nts_single/4040_counter.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 56,
+                    "comment": 0,
+                    "filename": "sample/nts_single/4069_not.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "sample/nts_single/4071_or.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "sample/nts_single/4081_and.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "sample/nts_single/4094_shift.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "sample/nts_single/4512_selector.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 74,
+                    "comment": 0,
+                    "filename": "sample/nts_single/4514_decoder.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 83,
+                    "comment": 0,
+                    "filename": "sample/nts_single/4801_ram.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "sample/nts_single/clock.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "sample/nts_single/false.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "sample/nts_single/input_output.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": "sample/nts_single/logger.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "sample/nts_single/true.nts"
+                },
+                {
+                    "blank": 10,
+                    "code": 58,
+                    "comment": 1,
+                    "filename": "src/AComponent.cpp"
+                },
+                {
+                    "blank": 11,
+                    "code": 87,
+                    "comment": 0,
+                    "filename": "src/Circuit.cpp"
+                },
+                {
+                    "blank": 13,
+                    "code": 49,
+                    "comment": 20,
+                    "filename": "src/Components/4008.cpp"
+                },
+                {
+                    "blank": 13,
+                    "code": 49,
+                    "comment": 20,
+                    "filename": "src/Components/4069.cpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "src/Exceptions/AException.cpp"
+                },
+                {
+                    "blank": 3,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "src/Exceptions/ComponentAlreadyExist.cpp"
+                },
+                {
+                    "blank": 3,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "src/Exceptions/ComponentNotFound.cpp"
+                },
+                {
+                    "blank": 2,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "src/Exceptions/EmptyCircuitException.cpp"
+                },
+                {
+                    "blank": 3,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "src/Exceptions/InvalidPin.cpp"
+                },
+                {
+                    "blank": 2,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "src/Exceptions/ParserException.cpp"
+                },
+                {
+                    "blank": 3,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "src/Exceptions/SameType.cpp"
+                },
+                {
+                    "blank": 3,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "src/Exceptions/SelfLink.cpp"
+                },
+                {
+                    "blank": 2,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "src/Exceptions/UnknownValueException.cpp"
+                },
+                {
+                    "blank": 27,
+                    "code": 86,
+                    "comment": 56,
+                    "filename": "src/Factory/Factory.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 51,
+                    "comment": 1,
+                    "filename": "src/Gates/AndGate.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 0,
+                    "comment": 45,
+                    "filename": "src/Gates/FlipFlop.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 34,
+                    "comment": 1,
+                    "filename": "src/Gates/InverterGate.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 46,
+                    "comment": 1,
+                    "filename": "src/Gates/NAndGate.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 44,
+                    "comment": 1,
+                    "filename": "src/Gates/NorGate.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 38,
+                    "comment": 1,
+                    "filename": "src/Gates/OrGate.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 44,
+                    "comment": 1,
+                    "filename": "src/Gates/XorGate.cpp"
+                },
+                {
+                    "blank": 32,
+                    "code": 227,
+                    "comment": 11,
+                    "filename": "src/Parser/Lexer.cpp"
+                },
+                {
+                    "blank": 14,
+                    "code": 128,
+                    "comment": 12,
+                    "filename": "src/Parser/Parser.cpp"
+                },
+                {
+                    "blank": 22,
+                    "code": 134,
+                    "comment": 6,
+                    "filename": "src/Parser/ParserHelper.cpp"
+                },
+                {
+                    "blank": 15,
+                    "code": 55,
+                    "comment": 8,
+                    "filename": "src/Parser/Token.cpp"
+                },
+                {
+                    "blank": 6,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "src/Special/Clock.cpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 14,
+                    "comment": 6,
+                    "filename": "src/Special/FalseComponent.cpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "src/Special/Input.cpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "src/Special/Output.cpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 14,
+                    "comment": 6,
+                    "filename": "src/Special/TrueComponent.cpp"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 6,
+                    "filename": "src/UserInput/Handler.cpp"
+                },
+                {
+                    "blank": 7,
+                    "code": 70,
+                    "comment": 6,
+                    "filename": "src/UserInput/Shell.cpp"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "test.ns"
+                },
+                {
+                    "blank": 5,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "tests/CMakeLists.txt"
+                },
+                {
+                    "blank": 6,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "tests/Files/5input_and.nts"
+                },
+                {
+                    "blank": 7,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "tests/Files/5input_nand.nts"
+                },
+                {
+                    "blank": 7,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "tests/Files/5input_nor.nts"
+                },
+                {
+                    "blank": 6,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "tests/Files/5input_or.nts"
+                },
+                {
+                    "blank": 11,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "tests/Files/adder.nts"
+                },
+                {
+                    "blank": 11,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "tests/Files/adderBis.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "tests/Files/and.nts"
+                },
+                {
+                    "blank": 1,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "tests/Files/clock.nts"
+                },
+                {
+                    "blank": 6,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "tests/Files/counter.nts"
+                },
+                {
+                    "blank": 6,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "tests/Files/d_latch.nts"
+                },
+                {
+                    "blank": 9,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "tests/Files/decoder.nts"
+                },
+                {
+                    "blank": 8,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "tests/Files/johnson.nts"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "tests/Files/loop.nts"
+                },
+                {
+                    "blank": 9,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "tests/Files/mandion.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "tests/Files/nand.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "tests/Files/nor.nts"
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "tests/Files/not.nts"
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "tests/Files/not_not.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "tests/Files/or.nts"
+                },
+                {
+                    "filename": "tests/Files/rom.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 16,
+                    "code": 84,
+                    "comment": 0,
+                    "filename": "tests/Files/romxor.nts"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "tests/Files/segfaulter.nts"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "tests/Files/segfaulter2.nts"
+                },
+                {
+                    "blank": 1,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "tests/Files/segfaulter3.nts"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "tests/Files/segfaulterBis.nts"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "tests/Files/xor.nts"
+                },
+                {
+                    "blank": 13,
+                    "code": 48,
+                    "comment": 1,
+                    "filename": "tests/TestAndGate.cpp"
+                },
+                {
+                    "blank": 6,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "tests/TestFalseComponent.cpp"
+                },
+                {
+                    "blank": 9,
+                    "code": 24,
+                    "comment": 1,
+                    "filename": "tests/TestInverterGate.cpp"
+                },
+                {
+                    "blank": 15,
+                    "code": 54,
+                    "comment": 1,
+                    "filename": "tests/TestNAndGate.cpp"
+                },
+                {
+                    "blank": 15,
+                    "code": 54,
+                    "comment": 1,
+                    "filename": "tests/TestNorGate.cpp"
+                },
+                {
+                    "blank": 14,
+                    "code": 54,
+                    "comment": 1,
+                    "filename": "tests/TestOrGate.cpp"
+                },
+                {
+                    "blank": 6,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "tests/TestTrueComponent.cpp"
+                },
+                {
+                    "blank": 15,
+                    "code": 54,
+                    "comment": 1,
+                    "filename": "tests/TestXorGate.cpp"
+                }
+            ]
+        }
+    ]
+}

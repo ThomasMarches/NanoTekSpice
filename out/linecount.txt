@@ -1,0 +1,155 @@
+===============================================================================
+EXTENSION NAME : linecount
+EXTENSION VERSION : 0.1.7
+-------------------------------------------------------------------------------
+count time : 2021-03-11 23:26:23
+count workspace : /Users/thomasmarches/delivery/Tek2/OOP/B-OOP-400-TLS-4-1-tekspice-samuel.besseau
+total files : 143
+total code lines : 4888
+total comment lines : 921
+total blank lines : 774
+
+.gitignore, code is 1, comment is 2, blank is 0.
+CMakeLists.txt, code is 9, comment is 0, blank is 8.
+include/4008.hpp, code is 21, comment is 6, blank is 4.
+include/4069.hpp, code is 21, comment is 6, blank is 4.
+include/AComponent.hpp, code is 27, comment is 0, blank is 5.
+include/AndGate.hpp, code is 17, comment is 0, blank is 5.
+include/Circuit.hpp, code is 33, comment is 0, blank is 6.
+include/Clock.hpp, code is 16, comment is 1, blank is 6.
+include/Exceptions/AException.hpp, code is 15, comment is 0, blank is 6.
+include/Exceptions/ComponentAlreadyExist.hpp, code is 10, comment is 0, blank is 4.
+include/Exceptions/ComponentNotFound.hpp, code is 10, comment is 0, blank is 4.
+include/Exceptions/EmptyCircuitException.hpp, code is 11, comment is 0, blank is 4.
+include/Exceptions/InvalidPin.hpp, code is 10, comment is 0, blank is 4.
+include/Exceptions/ParserException.hpp, code is 11, comment is 0, blank is 4.
+include/Exceptions/SameType.hpp, code is 10, comment is 0, blank is 4.
+include/Exceptions/SelfLink.hpp, code is 10, comment is 0, blank is 4.
+include/Exceptions/UnknownValueException.hpp, code is 10, comment is 0, blank is 4.
+include/Factory.hpp, code is 29, comment is 17, blank is 5.
+include/FalseComponent.hpp, code is 11, comment is 6, blank is 2.
+include/FlipFlop.hpp, code is 0, comment is 19, blank is 5.
+include/FourGates.hpp, code is 63, comment is 15, blank is 14.
+include/IComponent.hpp, code is 44, comment is 6, blank is 9.
+include/Input.hpp, code is 15, comment is 1, blank is 5.
+include/InverterGate.hpp, code is 17, comment is 6, blank is 4.
+include/Lexer.h, code is 132, comment is 3, blank is 23.
+include/NAndGate.hpp, code is 17, comment is 0, blank is 5.
+include/NorGate.hpp, code is 17, comment is 0, blank is 5.
+include/OrGate.hpp, code is 17, comment is 0, blank is 5.
+include/Output.hpp, code is 15, comment is 1, blank is 6.
+include/Parser.hpp, code is 22, comment is 0, blank is 7.
+include/ParserHelper.hpp, code is 40, comment is 7, blank is 18.
+include/Shell.hpp, code is 22, comment is 0, blank is 6.
+include/Token.h, code is 108, comment is 8, blank is 23.
+include/TrueComponent.hpp, code is 11, comment is 6, blank is 2.
+include/XorGate.hpp, code is 17, comment is 0, blank is 5.
+main.cpp, code is 21, comment is 0, blank is 2.
+sample/documentation/2716_rom.pdf, it is a binary file.
+sample/documentation/4001_nor.pdf, it is a binary file.
+sample/documentation/4004_microprocessor.pdf, it is a binary file.
+sample/documentation/4008_adder.pdf, it is a binary file.
+sample/documentation/4011_nand.pdf, it is a binary file.
+sample/documentation/4013_flipflop.pdf, it is a binary file.
+sample/documentation/4017_johnson.pdf, it is a binary file.
+sample/documentation/4030_xor.pdf, it is a binary file.
+sample/documentation/4040_counter.pdf, code is 830, comment is 596, blank is 5.
+sample/documentation/4069_not.pdf, it is a binary file.
+sample/documentation/4071_or.pdf, it is a binary file.
+sample/documentation/4081_and.pdf, it is a binary file.
+sample/documentation/4094_shift.pdf, it is a binary file.
+sample/documentation/4512_selector.pdf, it is a binary file.
+sample/documentation/4514_decoder.pdf, it is a binary file.
+sample/documentation/4801_ram.pdf, it is a binary file.
+sample/nts_advanced/altered-counter.nts, code is 43, comment is 0, blank is 2.
+sample/nts_advanced/and-or-not.nts, code is 25, comment is 0, blank is 2.
+sample/nts_advanced/and.nts, code is 29, comment is 0, blank is 2.
+sample/nts_single/2716_rom.nts, code is 68, comment is 0, blank is 2.
+sample/nts_single/4001_nor.nts, code is 44, comment is 0, blank is 2.
+sample/nts_single/4008_adder.nts, code is 58, comment is 0, blank is 2.
+sample/nts_single/4011_nand.nts, code is 44, comment is 0, blank is 2.
+sample/nts_single/4013_flipflop.nts, code is 56, comment is 0, blank is 2.
+sample/nts_single/4017_johnson.nts, code is 48, comment is 0, blank is 2.
+sample/nts_single/4030_xor.nts, code is 44, comment is 0, blank is 2.
+sample/nts_single/4040_counter.nts, code is 45, comment is 0, blank is 2.
+sample/nts_single/4069_not.nts, code is 56, comment is 0, blank is 2.
+sample/nts_single/4071_or.nts, code is 44, comment is 0, blank is 2.
+sample/nts_single/4081_and.nts, code is 44, comment is 0, blank is 2.
+sample/nts_single/4094_shift.nts, code is 55, comment is 0, blank is 2.
+sample/nts_single/4512_selector.nts, code is 49, comment is 0, blank is 2.
+sample/nts_single/4514_decoder.nts, code is 74, comment is 0, blank is 2.
+sample/nts_single/4801_ram.nts, code is 83, comment is 0, blank is 2.
+sample/nts_single/clock.nts, code is 8, comment is 0, blank is 2.
+sample/nts_single/false.nts, code is 8, comment is 0, blank is 2.
+sample/nts_single/input_output.nts, code is 8, comment is 0, blank is 2.
+sample/nts_single/logger.nts, code is 46, comment is 0, blank is 2.
+sample/nts_single/true.nts, code is 8, comment is 0, blank is 2.
+src/AComponent.cpp, code is 58, comment is 1, blank is 10.
+src/Circuit.cpp, code is 87, comment is 0, blank is 11.
+src/Components/4008.cpp, code is 49, comment is 20, blank is 13.
+src/Components/4069.cpp, code is 49, comment is 20, blank is 13.
+src/Exceptions/AException.cpp, code is 9, comment is 0, blank is 4.
+src/Exceptions/ComponentAlreadyExist.cpp, code is 4, comment is 0, blank is 3.
+src/Exceptions/ComponentNotFound.cpp, code is 4, comment is 0, blank is 3.
+src/Exceptions/EmptyCircuitException.cpp, code is 4, comment is 0, blank is 2.
+src/Exceptions/InvalidPin.cpp, code is 4, comment is 0, blank is 3.
+src/Exceptions/ParserException.cpp, code is 4, comment is 0, blank is 2.
+src/Exceptions/SameType.cpp, code is 4, comment is 0, blank is 3.
+src/Exceptions/SelfLink.cpp, code is 4, comment is 0, blank is 3.
+src/Exceptions/UnknownValueException.cpp, code is 4, comment is 0, blank is 2.
+src/Factory/Factory.cpp, code is 86, comment is 56, blank is 27.
+src/Gates/AndGate.cpp, code is 51, comment is 1, blank is 8.
+src/Gates/FlipFlop.cpp, code is 0, comment is 45, blank is 8.
+src/Gates/InverterGate.cpp, code is 34, comment is 1, blank is 8.
+src/Gates/NAndGate.cpp, code is 46, comment is 1, blank is 8.
+src/Gates/NorGate.cpp, code is 44, comment is 1, blank is 8.
+src/Gates/OrGate.cpp, code is 38, comment is 1, blank is 8.
+src/Gates/XorGate.cpp, code is 44, comment is 1, blank is 8.
+src/Parser/Lexer.cpp, code is 227, comment is 11, blank is 32.
+src/Parser/Parser.cpp, code is 128, comment is 12, blank is 14.
+src/Parser/ParserHelper.cpp, code is 134, comment is 6, blank is 22.
+src/Parser/Token.cpp, code is 55, comment is 8, blank is 15.
+src/Special/Clock.cpp, code is 29, comment is 0, blank is 6.
+src/Special/FalseComponent.cpp, code is 14, comment is 6, blank is 5.
+src/Special/Input.cpp, code is 16, comment is 0, blank is 5.
+src/Special/Output.cpp, code is 15, comment is 0, blank is 5.
+src/Special/TrueComponent.cpp, code is 14, comment is 6, blank is 5.
+src/UserInput/Handler.cpp, code is 12, comment is 6, blank is 2.
+src/UserInput/Shell.cpp, code is 70, comment is 6, blank is 7.
+test.ns, code is 9, comment is 0, blank is 2.
+tests/CMakeLists.txt, code is 11, comment is 0, blank is 5.
+tests/Files/5input_and.nts, code is 20, comment is 0, blank is 6.
+tests/Files/5input_nand.nts, code is 22, comment is 0, blank is 7.
+tests/Files/5input_nor.nts, code is 22, comment is 0, blank is 7.
+tests/Files/5input_or.nts, code is 20, comment is 0, blank is 6.
+tests/Files/adder.nts, code is 33, comment is 0, blank is 11.
+tests/Files/adderBis.nts, code is 33, comment is 0, blank is 11.
+tests/Files/and.nts, code is 11, comment is 0, blank is 2.
+tests/Files/clock.nts, code is 9, comment is 0, blank is 1.
+tests/Files/counter.nts, code is 33, comment is 0, blank is 6.
+tests/Files/d_latch.nts, code is 17, comment is 0, blank is 6.
+tests/Files/decoder.nts, code is 49, comment is 0, blank is 9.
+tests/Files/johnson.nts, code is 32, comment is 0, blank is 8.
+tests/Files/loop.nts, code is 10, comment is 0, blank is 0.
+tests/Files/mandion.nts, code is 28, comment is 0, blank is 9.
+tests/Files/nand.nts, code is 11, comment is 0, blank is 2.
+tests/Files/nor.nts, code is 11, comment is 0, blank is 2.
+tests/Files/not.nts, code is 29, comment is 0, blank is 5.
+tests/Files/not_not.nts, code is 14, comment is 0, blank is 1.
+tests/Files/or.nts, code is 11, comment is 0, blank is 2.
+tests/Files/rom.bin, it is a binary file.
+tests/Files/romxor.nts, code is 84, comment is 0, blank is 16.
+tests/Files/segfaulter.nts, code is 7, comment is 0, blank is 1.
+tests/Files/segfaulter2.nts, code is 8, comment is 0, blank is 1.
+tests/Files/segfaulter3.nts, code is 9, comment is 0, blank is 1.
+tests/Files/segfaulterBis.nts, code is 8, comment is 0, blank is 1.
+tests/Files/xor.nts, code is 11, comment is 0, blank is 2.
+tests/TestAndGate.cpp, code is 48, comment is 1, blank is 13.
+tests/TestFalseComponent.cpp, code is 10, comment is 0, blank is 6.
+tests/TestInverterGate.cpp, code is 24, comment is 1, blank is 9.
+tests/TestNAndGate.cpp, code is 54, comment is 1, blank is 15.
+tests/TestNorGate.cpp, code is 54, comment is 1, blank is 15.
+tests/TestOrGate.cpp, code is 54, comment is 1, blank is 14.
+tests/TestTrueComponent.cpp, code is 10, comment is 0, blank is 6.
+tests/TestXorGate.cpp, code is 54, comment is 1, blank is 15.
+===============================================================================
